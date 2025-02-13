@@ -8,6 +8,8 @@ jobs:
 
     steps:
 
-    - name: Ver version
+    - name: Ver la hora
       run: date
 
+    - name: Esperar 3 segundos
+      run: sleep 3
