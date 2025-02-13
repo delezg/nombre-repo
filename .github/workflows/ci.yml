@@ -9,5 +9,5 @@ jobs:
     steps:
 
     - name: Ver version
-      run: truffle --version
+      run: top -S
 
