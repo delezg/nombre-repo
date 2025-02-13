@@ -4,8 +4,10 @@ on: [push]
 
 jobs:
   build:
-    runs-on: windows
+    runs-on: windows-latest
 
     steps:
+
     - name: Ver version
-      run: truffle --version
+      run: truffle version
+
